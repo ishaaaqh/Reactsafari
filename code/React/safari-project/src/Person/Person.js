@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Person.css';
+
 const person = (props) => {
     var changed =(props.name)?props.name :"new User";
     return (
@@ -10,4 +11,4 @@ const person = (props) => {
         </div>
     )
 }
-export default person
+export default person;
