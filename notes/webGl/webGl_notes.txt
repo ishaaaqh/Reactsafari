@@ -1,0 +1,33 @@
+Three important things 
+	->Scene
+	->Camera
+	->Renderer
+
+	->near and far clipping plane.
+	->for maintaining the resolution u can keep the resolution but reduce the window size or keep the window size but reduce the resolution with setSize update style false as third argument.
+
+
+
+	Task:
+	https://s3aws.blob.core.windows.net/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif
+	https://strayos.azureedge.net/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif
+	orthophoto.strayos.com
+	mapdata.strayos.com
+	
+
+	sites to be tested
+	mapdata.strayos.com/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif
+
+
+	https://strayos.azureedge.net/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif
+
+
+	https://s3aws.blob.core.windows.net/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif		-> took 3 seconds 
+
+
+	orthophoto.strayos.com/output/dev-thejaswini/output/3350/dem/color_relief/color_relief.tif
+
+
+	https://s3aws.blob.core.windows.net/output/dev-thejaswini/output/3350/textured/100/odm_textured_model.obj	-> took 4:39.64
+	
+	task completed

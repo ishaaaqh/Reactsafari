@@ -1,0 +1,20 @@
+header{
+	background-color: #3F51B5;
+	display:grid;
+	grid-template-columns: fit-content(20%) 80%;
+}
+ul{
+	float:right;
+}
+ul li{
+	display:inline;
+}
+a{
+	text-decoration: none;
+	color: #57e8ea;
+}
+#logo{
+	padding:15px;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+}

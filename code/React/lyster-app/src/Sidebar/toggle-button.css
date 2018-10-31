@@ -1,0 +1,18 @@
+.menu-line{
+    height:2px;
+    border-radius:6px;
+    width:30px;
+    background-color:rgb(135, 191, 218);
+    border:1px solid rgb(135, 191, 218);  
+    margin:6px 0px
+}
+.toggle-button{
+   background-color:transparent;
+   border:none;
+   border-radius:10px;
+   margin:15px;
+   cursor:pointer;
+}
+.toggle-button:hover{
+    background-color:rgb(243, 244, 247);
+}

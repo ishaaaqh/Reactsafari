@@ -1,0 +1,17 @@
+@import "~nouislider/distribute/nouislider.min.css";
+.noUi-handle	{
+	height : 5px;
+	cursor : grab;
+}
+.noUi-target{
+	height : 7px;
+}
+body{
+	margin : 200px;
+}
+.noUi-horizontal .noUi-tooltip {
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    left: 50%;
+    bottom: 0%;
+}

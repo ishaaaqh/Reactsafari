@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.css" />
+	<!-- <script src="//cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pouchdb/7.0.0/pouchdb.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<style>
+		#map {
+    height: 300px;
+    opacity: 1;
+}
+	</style>	
+</head>
+<body>
+	<div id="map"></div>
+
+	<button id="replicate">Replicate</button>
+
+	<button id="delete-database">Delete Database</button>
+
+	<p>Adapted from: http://vmx.github.io/static-couch-demo/ne2/app/index.html</p>
+
+	<p>Click replicate, wait a few minutes (watch console for complete message), then force a map redraw by re-running the Fiddle. You are now viewing an offline layer, stored by your browser.</p>
+	
+	<script src="./Js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,224 @@
+.main-navigation .ham-menu{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    line-height: 5px;
+    margin-left: 29px;
+    position: relative;
+    top: -9px;
+}
+body{
+  margin-top:100px;
+}
+header.main-navigation{
+    padding: 20px 24px 0px 20px;
+    background-color: #fff;
+    box-shadow: 4px -21px 207px 0px;
+
+}
+.main-menu{
+  margin-right:164px;
+}
+.line{
+    width: 40px;
+    height: 3px;
+    color: blue;
+    background-color: #1f0909;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.main-navigation > .ham-menu > .line3{
+    width:25px;
+}
+header .main-navigation{
+    display:inline;
+    vertical-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu > .brand{
+    font-size: 49px;
+    height: 91px;
+    color: #dabb23;
+    font-weight: 800;
+    border: 9px solid;
+    padding: 2px 19px;
+    margin-right: 53px;
+}
+.main-menu > .brand a{
+    color: #dabb23;
+    text-decoration: none;
+
+}
+.menu-item{
+    margin:54px;
+}
+.menu-item a{
+    color: #080808;
+    font-weight: 800;
+    position: relative;
+    top: -17px;
+    text-decoration: none;
+}
+.icon-menu > .nav-item > img{
+    vertical-align: middle;
+    border-style: none;
+    height: 39px;
+    margin-right: 47px;
+    position: relative;
+    top: -19px;
+}
+.main-sofa-image > #main-image{
+    height:900px;
+    width:100%;
+
+}
+.image-text{
+    position: relative;
+    top: -725px;
+    left: 364px;
+    width:400px;
+    height:auto;
+}
+.img-text-header{
+    color: #dabb23;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 47px;;
+}
+.image-sub-text{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #0c0c0c;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 18px;
+}
+nav.filter-scroll-sticky-menu{
+    width: 100%;
+    padding: 10px 7%;
+    position: relative;
+    top: -132px;
+    background-color: #f5f2f3;
+    -moz-box-shadow: 6px 3px 14px 8px #ccc;
+    -webkit-box-shadow: 6px 3px 14px 8px #ccc;
+    box-shadow: 6px 3px 14px 8px #ccc;
+  }
+nav.filter-scroll-sticky-menu > ul.nav>li.nav-item{
+    margin: 10px;
+    display: flex;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    justify-content: space-between;
+}
+nav.filter-scroll-sticky-menu > ul.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav.filter-scroll-sticky-menu > ul.nav > li.nav-item > i.fa{
+    color: #080808;
+    margin: 3px 9px;
+}
+figure.other-product{
+    background-color: #fff;
+    width: 359px;
+    padding: 0px 10px 23px 34px;
+    height: 279px;
+    box-sizing: border-box;
+    float:left;
+    margin:5px 5px ;
+}
+figure.other-product:hover{
+  box-shadow: 0px 0px 26px -5px;
+
+
+
+}
+.other-product > img#fig-image{
+    height: 194px;
+    width: 261px;
+}
+.other-product > figcaption{
+    color: black;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.pricing,.price-del{
+    color: black;
+    font-weight: 700;
+}
+.price-del{
+    font-size:13px;
+}
+.other-products-container{
+    width: 100%;
+    height: 80vh;
+    padding: 0% 10%;
+}
+i.like{
+   font-weight: 400;
+    color: #948b8b;
+    position: relative;
+    top: -69px;
+    left: 26px;
+}
+figure.other-product> button.cart-btn{
+    background-color: #fff;
+    color: #dabb23;
+    border: 1px solid #dabb23;
+    padding: 8px 10px;
+    font-size: 8px;
+    margin-left: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+figure.other-product > button.cart-btn:hover{
+  background-color: #dabb23;
+  color:#fff;
+
+}
+figure.other-product> button.cart-btn>span{
+    font-size: 9px;
+    padding: 0px 12px;
+  }
+.forest-container{
+    background-color: #fff;
+    height: auto;
+    width: 660px;
+    box-sizing: border-box;
+    padding: 46px 60px;
+    border: 5px solid #dabb23;
+    position: relative;
+    top: 110px;
+    left: 143px;
+}
+dl.forest-container > dt > h4.forest-header{
+    color: #0f084a;
+    font-weight: 800;
+}
+dl.forest-container > dd > p{
+    text-align:justify;
+    text-justify:inter-word;
+}
+dl.forest-container > dd > label > a{
+    font-weight: 700;
+    color: #1d282a;
+    position: relative;
+    text-decoration: none;
+    top: 10px;
+    left: 408px;
+}
+    div.forest-desc{
+    background-image: url("assets/Images/forest.jpg");
+    width:100%;
+    height:500px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+}

@@ -1,0 +1,36 @@
+.ham-menu{
+    height: 100%;    
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:70%;
+    max-width:400px;
+    box-shadow:2px 0px 5px rgba(0, 0, 0, 0.5);
+    padding:0px;
+    z-index:200;
+    
+
+    /* display:none; */
+}
+.ham-menu > ul >li >a{
+    color:rgb(71, 82, 116);
+    text-decoration:none;
+    font-size:1.5rem;
+    font-weight:800;
+}
+.ham-menu > ul >li
+{
+    list-style:none;
+    /* border-bottom:1px solid rgb(184, 182, 211); */
+    margin:0px;
+    padding:10px;
+
+}
+.ham-menu > ul {
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:space-around;    
+    flex-direction:column;
+}

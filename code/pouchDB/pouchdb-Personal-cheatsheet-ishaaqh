@@ -1,0 +1,22 @@
+PouchDB cdn  -> <script src="//cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script>
+creating a local database 
+		var db = new PouchDB('todos');
+		var remoteCouch = false;
+
+	db.put add elements to the pouchDb
+
+	db.allDocs to get all the present data form local db
+		example:
+
+		db.allDocs({include_docs: true, descending: true}, function(err, doc) {
+		    redrawTodosUI(doc.rows);
+		});
+
+	db.changes to execute some random function on changes to db 
+
+		example:
+
+		db.changes({
+		  since: 'now',
+		  live: true
+		}).on('change', showTodos);

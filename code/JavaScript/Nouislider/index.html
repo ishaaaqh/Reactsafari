@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.js"></script>
+</head>
+<body>
+	
+<div id="range"></div>
+
+<script>
+	var range = document.getElementById('range');
+
+noUiSlider.create(range, {
+
+    range: {
+        'min': 0,
+        'max': 100
+    },
+
+    step: 10,
+
+    // Handles start at ...
+    start: [10, 20],
+
+    // ... must be at least 300 apart
+    margin: 300,
+
+    // ... but no more than 600
+    // limit: 600,
+
+    // Display colored bars between handles
+    connect: true,
+
+    // Put '0' at the bottom of the slider
+    direction: 'ltr',
+    orientation: 'horizontal',
+
+    // Move handle on tap, bars are draggable
+    behaviour: 'tap-drag',
+    tooltips: true,
+       // Show a scale with the slider
+    pips: {
+        mode: 'steps',
+        stepped: true,
+        density: 5
+    }
+});
+
+</script>
+</body>
+</html>
